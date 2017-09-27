@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1506512849876" stop="1506512993960" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>FirstTest : FirstTestSupplier</name>
+    <title>FirstTest : FirstTestSupplier</title>
+    <test-cases>
+        <test-case start="1506512855337" stop="1506512870900" status="passed">
+            <name>SupplierLogin</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-B0U1GPU"/>
+                <label name="thread" value="22872@DESKTOP-B0U1GPU.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1506512870903" stop="1506512870965" status="passed">
+            <name>SupplierProfile</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-B0U1GPU"/>
+                <label name="thread" value="22872@DESKTOP-B0U1GPU.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1506512870966" stop="1506512886068" status="passed">
+            <name>SupplierSettings</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-B0U1GPU"/>
+                <label name="thread" value="22872@DESKTOP-B0U1GPU.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1506512886071" stop="1506512901104" status="passed">
+            <name>SupplierUsers</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-B0U1GPU"/>
+                <label name="thread" value="22872@DESKTOP-B0U1GPU.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1506512901107" stop="1506512908033" status="passed">
+            <name>SupplierPhotosessionFilter</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-B0U1GPU"/>
+                <label name="thread" value="22872@DESKTOP-B0U1GPU.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1506512908035" stop="1506512929738" status="passed">
+            <name>SupplierFilters</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-B0U1GPU"/>
+                <label name="thread" value="22872@DESKTOP-B0U1GPU.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1506512929740" stop="1506512929775" status="passed">
+            <name>SupplierAddProduct</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-B0U1GPU"/>
+                <label name="thread" value="22872@DESKTOP-B0U1GPU.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1506512929776" stop="1506512951055" status="passed">
+            <name>SupplierAddPhotosession</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-B0U1GPU"/>
+                <label name="thread" value="22872@DESKTOP-B0U1GPU.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1506512951057" stop="1506512966108" status="passed">
+            <name>SupplierEditProduct</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-B0U1GPU"/>
+                <label name="thread" value="22872@DESKTOP-B0U1GPU.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1506512966114" stop="1506512987146" status="passed">
+            <name>SupplierDownload</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-B0U1GPU"/>
+                <label name="thread" value="22872@DESKTOP-B0U1GPU.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1506512987148" stop="1506512987195" status="passed">
+            <name>SupplierNews</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-B0U1GPU"/>
+                <label name="thread" value="22872@DESKTOP-B0U1GPU.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1506512987197" stop="1506512993959" status="passed">
+            <name>SupplierLogout</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-B0U1GPU"/>
+                <label name="thread" value="22872@DESKTOP-B0U1GPU.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

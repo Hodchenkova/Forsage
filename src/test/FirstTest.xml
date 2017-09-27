@@ -1,0 +1,87 @@
+<suite name="FirstTest" verbose="3" parallel="methods thread-count=2">
+    <test name="FirstTestAdmin" >
+        <classes>
+            <class name="FirstTest" />
+            <methods>
+                <include name="AdminLogin" />
+                <include name="AdminSettings" />
+                <include name="AdminCategories" />
+                <include name="AdminDirectories" />
+                <include name="AdminCharacteristics" />
+                <include name="AdminGroups" />
+                <include name="AdminGuest" />
+                <include name="AdminSupplier" />
+                <include name="AdminOnlineShop" />
+                <include name="AdminOrderOfcharacteristics" />
+                <include name="AdminUsers" />
+                <include name="AdminPhotosessions" />
+                <include name="AdminAddPhotosessions" />
+                <include name="AdminPhotosessionFilter" />
+                <include name="AdminProductFilter" />
+                <include name="AdminAddProduct" />
+                <include name="AdminEditProduct" />
+                <include name="AdminDownload" />
+                <include name="AdminNews" />
+                <include name="AdminLogout" />
+            </methods>
+        </classes>
+    </test>
+    <test name="FirstTestClient" >
+        <classes>
+            <class name="FirstTest" />
+            <methods>
+                <include name="ClientLogin" />
+                <include name="ClientProfile" />
+                <include name="ClientSettings" />
+                <include name="ClientPhotosession"/>
+                <include name="ClientFilters" />
+                <include name="ClientAddProduct" />
+                <include name="ClientAddPhotosession" />
+                <include name="ClientEditProduct" />
+                <include name="ClientDownload" />
+                <include name="ClientNews" />
+                <include name="ClientUsers" />
+                <include name="ClientLogout" />
+            </methods>
+        </classes>
+    </test>
+    <test name="FirstTestSupplier" >
+        <classes>
+            <class name="FirstTest" />
+            <methods>
+                <include name="SupplierLogin" />
+                <include name="SupplierProfile" />
+                <include name="SupplierSettings" />
+                <include name="SupplierUsers" />
+                <include name="SupplierPhotossesion" />
+                <include name="SupplierPhotosessionFilter" />
+                <include name="SupplierFilters" />
+                <include name="SupplierAddProduct" />
+                <include name="SupplierAddPhotosession" />
+                <include name="SupplierEditProduct" />
+                <include name="SupplierDownload" />
+                <include name="SupplierNews" />
+                <include name="SupplierLogout" />
+            </methods>
+        </classes>
+    </test>
+    <test name="FirstTestGuest" >
+        <classes>
+            <class name="FirstTest" />
+            <methods>
+                <include name="GuestLogin" />
+                <include name="GuestProfile" />
+                <include name="GuestSettings" />
+                <include name="GuestPhotosession" />
+                <include name="GuestFilrets" />
+                <include name="GuestAddProduct" />
+                <include name="GuestAddPhotosession" />
+                <include name="GuestEditProduct" />
+                <include name="GuestDownload" />
+                <include name="GuestNews" />
+                <include name="GuestUsers" />
+                <include name="GuestLogout" />
+            </methods>
+        </classes>
+    </test>
+</suite>

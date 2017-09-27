@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1506512729288" stop="1506512849849" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>FirstTest : FirstTestClient</name>
+    <title>FirstTest : FirstTestClient</title>
+    <test-cases>
+        <test-case start="1506512743944" stop="1506512763306" status="passed">
+            <name>ClientLogin</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-B0U1GPU"/>
+                <label name="thread" value="22872@DESKTOP-B0U1GPU.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1506512763308" stop="1506512763428" status="passed">
+            <name>ClientProfile</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-B0U1GPU"/>
+                <label name="thread" value="22872@DESKTOP-B0U1GPU.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1506512763430" stop="1506512797375" status="passed">
+            <name>ClientSettings</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-B0U1GPU"/>
+                <label name="thread" value="22872@DESKTOP-B0U1GPU.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1506512797378" stop="1506512812504" status="passed">
+            <name>ClientPhotosession</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-B0U1GPU"/>
+                <label name="thread" value="22872@DESKTOP-B0U1GPU.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1506512812506" stop="1506512812531" status="passed">
+            <name>ClientFilters</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-B0U1GPU"/>
+                <label name="thread" value="22872@DESKTOP-B0U1GPU.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1506512812532" stop="1506512812564" status="passed">
+            <name>ClientAddProduct</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-B0U1GPU"/>
+                <label name="thread" value="22872@DESKTOP-B0U1GPU.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1506512812565" stop="1506512827614" status="passed">
+            <name>ClientEditProduct</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-B0U1GPU"/>
+                <label name="thread" value="22872@DESKTOP-B0U1GPU.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1506512827617" stop="1506512827658" status="passed">
+            <name>ClientDownload</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-B0U1GPU"/>
+                <label name="thread" value="22872@DESKTOP-B0U1GPU.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1506512827660" stop="1506512827719" status="passed">
+            <name>ClientNews</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-B0U1GPU"/>
+                <label name="thread" value="22872@DESKTOP-B0U1GPU.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1506512827721" stop="1506512842777" status="passed">
+            <name>ClientUsers</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-B0U1GPU"/>
+                <label name="thread" value="22872@DESKTOP-B0U1GPU.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1506512842781" stop="1506512849848" status="passed">
+            <name>ClientLogout</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-B0U1GPU"/>
+                <label name="thread" value="22872@DESKTOP-B0U1GPU.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
