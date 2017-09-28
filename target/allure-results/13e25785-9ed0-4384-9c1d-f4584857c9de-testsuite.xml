@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1506608807597" stop="1506608825358" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : ForsageAuto</name>
+    <title>Default Suite : ForsageAuto</title>
+    <test-cases>
+        <test-case start="1506608821250" stop="1506608824761" status="passed">
+            <name>AdminLogin</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-B0U1GPU"/>
+                <label name="thread" value="9808@DESKTOP-B0U1GPU.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1506608824977" stop="1506608825353" status="passed">
+            <name>AdminEditProduct</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-B0U1GPU"/>
+                <label name="thread" value="9808@DESKTOP-B0U1GPU.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

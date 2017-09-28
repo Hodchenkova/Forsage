@@ -89,20 +89,20 @@ public class AdminPage {
         AddDirectory.click();
     }
 
-    public void InputDirectoryName(String nameDirectory) {
-        InputDirectoryName.sendKeys("");
+    public void InputDirectoryName(String name) {
+        InputDirectoryName.sendKeys(name);
     }
 
-    public void InputDirectoryValue(String valueDirectory) {
-        InputDirectoryValue.sendKeys("");
+    public void InputDirectoryValue(String name) {
+        InputDirectoryValue.sendKeys(name);
     }
 
     public void AddAnotherValue() {
         AddAnotherValue.click();
     }
 
-    public void InputAnotherValue(String valueAnotherDirectory) {
-        InputAnotherValue.sendKeys("");
+    public void InputAnotherValue(String name) {
+        InputAnotherValue.sendKeys(name);
     }
 
     public void AddDirectoryButton() {
@@ -159,7 +159,7 @@ public class AdminPage {
     }
 
     public void InputCharacteristicName(String name) {
-        InputCharacteristicName.sendKeys("Размер");
+        InputCharacteristicName.sendKeys(name);
     }
 
     public void ChooseCharacteristicsValue() {
@@ -228,8 +228,8 @@ public class AdminPage {
 
     }
 
-    public void InputBrandName(String brandName) {
-        InputBrandName.sendKeys("Ctapto");
+    public void InputBrandName(String name) {
+        InputBrandName.sendKeys(name);
     }
 
     public void AddBrandButton() {
@@ -265,6 +265,9 @@ public class AdminPage {
 
     public void AddGroupButton() {
         AddGroupButton.click();
+    }
+    public void InputGroupName(String name) {
+        InputGroupName.sendKeys(name);
     }
 
 ///// Add user
@@ -305,10 +308,14 @@ public class AdminPage {
 //    public WebElement siteAdressField;
     @FindBy(xpath = "//*[@id=\"userInfo\"]/div/div/div[11]/input")
     public WebElement CreateUserButton;
-    @FindBy(xpath = "//*[@id=\"app\"]/div/div[2]/div/table/tbody/tr[5]/td[8]/a")
+    @FindBy(xpath = "//*[@id=\"app\"]/div/div[2]/div/table/tbody/tr[6]/td[8]/a")
     public WebElement ChangeUser;
     @FindBy(xpath = "//*[@id=\"status\"]")
     public WebElement ActivateUser;
+    @FindBy(xpath = "//*[@id=\"deleteUserForm\"]/input[3]")
+    public WebElement DeleteUser;
+    @FindBy(xpath = "//*[@id=\"deleteUserModalBtn\"]")
+    public WebElement DeleteUserButton;
 
     public void Users() {
         Users.click();
@@ -318,20 +325,20 @@ public class AdminPage {
         AddUser.click();
     }
 
-    public void InputCompanyName(String Companyname) {
-        InputCompanyName.sendKeys("Ideal");
+    public void InputCompanyName(String name) {
+        InputCompanyName.sendKeys(name);
     }
 
     public void InputName(String name) {
-        InputName.sendKeys("Галина");
+        InputName.sendKeys(name);
     }
 
-    public void InputPhone(String phone) {
-        InputPhone.sendKeys("380631234567");
+    public void InputPhone(String name) {
+        InputPhone.sendKeys(name);
     }
 
-    public void InputEmail(String email) {
-        InputEmail.sendKeys("ideal@gmail.com");
+    public void InputEmail(String name) {
+        InputEmail.sendKeys(name);
     }
 
     public void InputPassword(String password) {
@@ -376,6 +383,9 @@ public class AdminPage {
 
     public void ActivateUser() {
         ActivateUser.click();
+    }
+    public void DeleteUserButton() {
+        DeleteUserButton.click();
     }
 
     // Add Photosession
@@ -660,8 +670,8 @@ public class AdminPage {
         AddProductButton.sendKeys(Keys.ENTER);
     }
 
-    public void ArticleField(String article) {
-        ArticleField.sendKeys("BBB222");
+    public void ArticleField(String name) {
+        ArticleField.sendKeys(name);
     }
 
     public void CountField(String count) {
@@ -676,8 +686,8 @@ public class AdminPage {
         PerchasePriceField.sendKeys("200");
     }
 
-    public void CodeField(String count) {
-        CodeField.sendKeys("20");
+    public void CodeField(String name) {
+        CodeField.sendKeys(name);
     }
 
     public void DescriptionField(String count) {
