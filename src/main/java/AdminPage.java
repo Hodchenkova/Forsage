@@ -402,7 +402,7 @@ public class AdminPage {
     public WebElement InputDate;
     @FindBy(xpath = "//*[@id=\"categorySelect\"]/div/button/span[1]")
     public WebElement CategoryField;
-    @FindBy(xpath = "//*[@id=\"categorySelect\"]/div/div/ul/li[2]/a/span[1]")
+    @FindBy(xpath = "//*[@id=\"categorySelect\"]/div/div/ul/li[13]/a")
     public WebElement ChooseCategory;
     @FindBy(xpath = "//*[@id=\"products_count\"]")
     public WebElement InputProductsCount;
@@ -430,6 +430,12 @@ public class AdminPage {
     public WebElement SavePhotosessionButton;
     @FindBy(xpath = "//*[@id=\"bulkSave\"]/div[1]/div/div/div/div[5]/div/div/div/input")
     public WebElement ShowPhotosession;
+    @FindBy(xpath = "//*[@id=\"import-preview\"]")
+    public WebElement AddExelButton;
+    @FindBy(xpath = "//*[@id=\"saveMatchedPhotosession\"]/input[7]")
+    public WebElement SaveExele;
+    @FindBy(xpath = "//*[@id=\"publish-submit\"]")
+    public WebElement Publicate;
 
 
     public void Photosessions() {
@@ -497,8 +503,15 @@ public class AdminPage {
 //    public void AddNewProduct() {
 //        AddNewProduct.click();
 //    }
+    public void AddExelButton() {
+        AddExelButton.submit();
+    }
+
+    public void SaveExele() {
+        SaveExele.submit();
+    }
     public void InputDateField(String date) {
-        InputDateField.sendKeys("\b\b\b\b\b\b\b\b\b\b 07-09-2017");
+        InputDateField.sendKeys("\b\b\b\b\b\b\b\b\b\b 29-09-2017");
     }
 
     public void ShowPhotosession() {
@@ -507,6 +520,9 @@ public class AdminPage {
 
     public void SavePhotosessionButton() {
         SavePhotosessionButton.submit();
+    }
+    public void Publicate() {
+        Publicate.submit();
     }
 
     // Change Photosession

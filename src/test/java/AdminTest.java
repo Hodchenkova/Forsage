@@ -25,16 +25,17 @@ public class AdminTest {
     public static LoginPage loginPage;
     public static AdminPage adminPage;
     public static Select select;
+    public LogEntries logEntries;
 
-    public static void Logs() {
-        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
-        DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-        LoggingPreferences loggingprefs = new LoggingPreferences();
-        loggingprefs.enable(LogType.SERVER, Level.ALL);
-        loggingprefs.enable(LogType.BROWSER, Level.ALL);
-        capabilities.setCapability(CapabilityType.LOGGING_PREFS, loggingprefs);
-        driver = new ChromeDriver(capabilities);
+    public void logConsoleEntries(LogEntries logEntries) {
+        for (LogEntry logEntry : logEntries) {
+            if (logEntry.getLevel() == Level.SEVERE)
+                System.out.println(String.valueOf(" Time Stamp: " + logEntry.getTimestamp()));
+            System.out.println(String.valueOf(" Log Level: " + logEntry.getLevel()));
+            System.out.println(String.valueOf(" Log Message: " + logEntry.getMessage()));
+        }
     }
+
     @BeforeClass
     public static void setup() throws Exception {
         System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
@@ -44,25 +45,12 @@ public class AdminTest {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
-//        DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-//        LoggingPreferences loggingprefs = new LoggingPreferences();
-//        loggingprefs.enable(LogType.BROWSER, Level.ALL);
-//        capabilities.setCapability(CapabilityType.LOGGING_PREFS, loggingprefs);
-//        driver = new ChromeDriver(capabilities);
     }
 
-
-
-//    public void ExtractJSLogs() {
-//        LogEntries logEntries = driver.manage().logs().get(LogType.BROWSER);
-//        Logs log = driver.manage().logs();
-//        List<LogEntry> logsEntries = log.get("browser").getAll();
-//        for (LogEntry entry : logEntries) {
-//            System.out.println(new Date(entry.getTimestamp()) + " " + entry.getLevel() + " " + entry.getMessage());
-//        }
-//    }
-
-
+    public void showLogs() {
+        logEntries = driver.manage().logs().get(LogType.BROWSER);
+        logConsoleEntries(logEntries);
+    }
 
     public static void sleep(int time) {
         try {
@@ -89,8 +77,9 @@ public class AdminTest {
         loginPage.Password("admin");
         loginPage.LoginSubmit();
         sleep(1);
+        showLogs();
         Assert.assertTrue(driver.getCurrentUrl().equals("http://test.forsage-studio.com.ua/product"));
-//        ExtractJSLogs();
+
     }
 
     @Test(priority = 2, dependsOnMethods = {"AdminLogin"})
@@ -104,6 +93,8 @@ public class AdminTest {
         adminPage.InputCategoryName(newCategoryName);
         sleep(2);
         adminPage.AddCategoryButton();
+        sleep(3);
+        showLogs();
         Assert.assertTrue(isElementPreset(By.xpath("//a[text()='" + newCategoryName + "']")));
         sleep(2);
 
@@ -123,6 +114,8 @@ public class AdminTest {
         adminPage.InputDirectoryValue(newDirectoryValue);
         sleep(2);
         adminPage.AddDirectoryButton();
+        sleep(3);
+        showLogs();
         Assert.assertTrue(isElementPreset(By.xpath("//a[text()='" + newDirectoryName + "']")));
         sleep(2);
 
@@ -143,6 +136,7 @@ public class AdminTest {
         sleep(2);
         adminPage.ChooseValueText();
         sleep(2);
+        showLogs();
         adminPage.AddCharacteristicButton();
         Assert.assertTrue(isElementPreset(By.xpath("//a[text()='" + newCharacteristicName + "']")));
         sleep(2);
@@ -160,6 +154,8 @@ public class AdminTest {
         adminPage.InputBrandName(newBrandName);
         sleep(2);
         adminPage.AddBrandButton();
+        sleep(3);
+        showLogs();
         Assert.assertTrue(isElementPreset(By.xpath("//a[text()='" + newBrandName + "']")));
         sleep(2);
 
@@ -176,6 +172,8 @@ public class AdminTest {
         adminPage.InputGroupName(newGroupName);
         sleep(2);
         adminPage.AddGroup();
+        sleep(3);
+        showLogs();
         Assert.assertTrue(isElementPreset(By.xpath("//a[text()='" + newGroupName + "']")));
         sleep(2);
 
@@ -229,9 +227,10 @@ public class AdminTest {
             adminPage.InputStreet("Голубая");
             adminPage.InputStoreNumber("2323");
             adminPage.CreateUserButton();
+            sleep(3);
+            showLogs();
             Assert.assertTrue(isElementPreset(By.xpath("//a[text()='" + newName + "']")));
             sleep(5);
-
 
 
         }
@@ -242,7 +241,8 @@ public class AdminTest {
         adminPage.FiltersButton();
         adminPage.DateField("01-01-2017");
         adminPage.AddFiltersButton();
-        sleep(2);
+        sleep(5);
+        showLogs();
         Assert.assertTrue(isElementPreset(By.xpath("//*[@id=\"app\"]/div[7]/div/div/div[1]/a")));
         sleep(2);
 
@@ -266,6 +266,7 @@ public class AdminTest {
         adminPage.AddNewProductButton();
         adminPage.Products();
         sleep(5);
+        showLogs();
         Assert.assertTrue(isElementPreset(By.xpath("//td[text()='" + newArticle + "']")));
         sleep(10);
 
@@ -280,7 +281,65 @@ public class AdminTest {
 //        sleep(3);
         adminPage.SelectProduct();
         adminPage.EditButton();
-//        ExtractJSLogs();
+        sleep(3);
+        showLogs();
+        driver.findElement(By.xpath("//*[@id=\"vcode\"]")).clear();
+        String EditedArticle = "Edited Article" + new Timestamp(System.currentTimeMillis());
+        System.out.print(EditedArticle);
+        driver.findElement(By.xpath("//*[@id=\"vcode\"]")).sendKeys(EditedArticle);
+        adminPage.SaveButton();
+        sleep(5);
+        showLogs();
+        Assert.assertTrue(isElementPreset(By.xpath("//td[text()='" + EditedArticle + "']")));
 
     }
+
+    @Test(priority = 10, dependsOnMethods = {"AdminLogin"})
+    public void AdminDownloadForOnlineShop() {
+        String LogLevel = "SEVERE";
+        adminPage.FiltersButton();
+        sleep(5);
+        adminPage.DateField("01-01-2017");
+        adminPage.AddFiltersButton();
+        sleep(5);
+        adminPage.SelectAllProducts();
+        adminPage.DownloadButton();
+        adminPage.DownloadForOnlineShop();
+        sleep(5);
+        showLogs();
+        Assert.assertTrue(isElementPreset(By.xpath("//*[@id=\"app\"]/div/div/div[2]")));
+//        Assert.assertFalse(System.out.println(String.valueOf(" Log Level: " + LogLevel )));
+
+
+    }
+
+    @Test(priority = 11, dependsOnMethods = {"AdminLogin"})
+    public void AdminDownloadDescriptionAllProducts() {
+        adminPage.FiltersButton();
+        sleep(5);
+        adminPage.DateField("01-01-2017");
+        adminPage.AddFiltersButton();
+        sleep(5);
+        adminPage.SelectAllProducts();
+        adminPage.DownloadButton();
+        adminPage.DownloadDescription();
+        sleep(5);
+        showLogs();
+        Assert.assertTrue(isElementPreset(By.xpath("//*[@id=\"app\"]/div/div/div[2]")));
+    }
+    @Test(priority = 12, dependsOnMethods = {"AdminLogin"})
+    public void AdminDownloadPhotos() {
+        adminPage.FiltersButton();
+        sleep(5);
+        adminPage.DateField("01-01-2017");
+        adminPage.AddFiltersButton();
+        sleep(5);
+        adminPage.SelectAllProducts();
+        adminPage.DownloadButton();
+        adminPage.DownloadPhotos();
+        sleep(5);
+        showLogs();
+        Assert.assertTrue(isElementPreset(By.xpath("//*[@id=\"app\"]/div/div/div[2]")));
+    }
+
 }

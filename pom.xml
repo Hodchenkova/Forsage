@@ -30,10 +30,33 @@
             <version>6.11</version>
             <scope>test</scope>
         </dependency>
+
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>RELEASE</version>
+        </dependency>
+
+        <dependency>
+        <groupId>commons-logging</groupId>
+        <artifactId>commons-logging</artifactId>
+        <version>1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jboss.logging</groupId>
+            <artifactId>jboss-logging-annotations</artifactId>
+            <version>2.1.0.Final</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.logentries</groupId>
+            <artifactId>logentries-appender</artifactId>
+            <version>1.1.38</version>
+        </dependency>
+        <dependency>
+            <groupId>cljsjs</groupId>
+            <artifactId>logentries</artifactId>
+            <version>0.0.3-0</version>
         </dependency>
 
         <!-- Allure -->
@@ -52,6 +75,7 @@
             <artifactId>allure-junit4-aspect</artifactId>
             <version>2.0-BETA15</version>
         </dependency>
+
 
     </dependencies>
     <properties>
@@ -74,8 +98,8 @@
 
         <!-- Directory Properties -->
         <resource-test.directory>${project.basedir}/src/test/resources</resource-test.directory>
-        <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
-        <allure.report.directory>${project.build.directory}/allure-report</allure.report.directory>
+        <allure.results.directory>${allure.results.directory}/allure-results/</allure.results.directory>
+        <allure.report.directory>${project.build.directory}target/site/allure-maven-plugin/**</allure.report.directory>
     </properties>
 
 
@@ -149,5 +173,7 @@
             </plugin>
         </plugins>
     </reporting>
+
+
 
 </project>
