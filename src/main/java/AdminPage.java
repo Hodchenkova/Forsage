@@ -396,7 +396,7 @@ public class AdminPage {
     public WebElement AddPhotosession;
     @FindBy(xpath = "//*[@id=\"supplierSelect\"]/div/button/span[1]")
     public WebElement SellerField;
-    @FindBy(xpath = "//*[@id=\"supplierSelect\"]/div/div/ul/li[2]/a")
+    @FindBy(xpath = "//*[@id=\"supplierSelect\"]/div/div/ul/li[5]/a")
     public WebElement ChooseSeller;
     @FindBy(id = "created")
     public WebElement InputDate;

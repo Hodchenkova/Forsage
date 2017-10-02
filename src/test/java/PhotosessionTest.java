@@ -8,6 +8,11 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import ru.yandex.qatools.allure.annotations.Description;
+import ru.yandex.qatools.allure.annotations.Severity;
+import ru.yandex.qatools.allure.annotations.Step;
+import ru.yandex.qatools.allure.annotations.Title;
+import ru.yandex.qatools.allure.model.SeverityLevel;
 
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
@@ -86,10 +91,13 @@ public class PhotosessionTest {
         Assert.assertTrue(driver.getCurrentUrl().equals("http://dev.forsage-studio.com.ua/product"));
 
     }
-
+    @Title("Создание новой фотосессии")
+    @Description("В этом тесте создается новая фотосессия: импорт таблицы Excele, импорт фото, публикация фотосессии")
+    @Severity(SeverityLevel.CRITICAL)
     @Test(priority = 2, dependsOnMethods = {"AdminLogin"})
-    public void AddNewPhotosession() throws AWTException {
-        File file = new File("C:\\Users\\Admin\\Desktop\\Форсаж exeles\\TEST\\TEST");
+    @Step("Заполнение необходимых данных для создания фотосессии")
+    public void CreatePhotosession() throws AWTException {
+
         adminPage.Photosessions();
         adminPage.AddPhotosession();
         adminPage.SellerField();
@@ -102,6 +110,10 @@ public class PhotosessionTest {
         adminPage.InputProductsCount("30");
         adminPage.InputAnglesCount("\b\b 1, ENTER");
         adminPage.SavePhotosessionButton();
+        showLogs();
+//        @Step("Импорт таблицы Excele")
+
+        File file = new File("C:\\Users\\Admin\\Desktop\\Форсаж exeles\\TEST\\TEST");
         adminPage.UploadButton();
         adminPage.UploadExele();
         setClipboardData(file.getAbsolutePath());
@@ -130,7 +142,11 @@ public class PhotosessionTest {
         sleep(3);
         adminPage.SaveExele();
         sleep(10);
-        File file1 = new File("C:\\Users\\Admin\\Desktop\\Форсаж фото\\TEST\\2\\\"1\" \"2\" \"3\" \"4\" \"5\" \"6\" \"7\" \"8\" \"9\" \"10\" \"11\" \"12\" \"13\" \"14\" \"15\" \"16\" \"17\" \"18\" \"19\" \"20\" \"21\" \"22\" \"23\" \"24\" \"25\" \"26\" \"27\" \"28\" \"29\" \"30\" ");
+        showLogs();
+
+//        @Step("Импорт фото обложки и ракурсов")
+//        public void UploadPhotos() throws AWTException {
+            File file1 = new File("C:\\Users\\Admin\\Desktop\\Форсаж фото\\TEST\\2\\\"1\" \"2\" \"3\" \"4\" \"5\" \"6\" \"7\" \"8\" \"9\" \"10\" \"11\" \"12\" \"13\" \"14\" \"15\" \"16\" \"17\" \"18\" \"19\" \"20\" \"21\" \"22\" \"23\" \"24\" \"25\" \"26\" \"27\" \"28\" \"29\" \"30\" ");
         adminPage.UploadButton();
         adminPage.UploadCoverPhoto();
         setClipboardData(file1.getAbsolutePath());
@@ -164,12 +180,18 @@ public class PhotosessionTest {
         rb.keyRelease(KeyEvent.VK_ENTER);
         rb.delay(300);
         sleep(10);
+            showLogs();
+
+
+//    @Step("Сохранение и публикация")
+//    public void savePhotosession() throws AWTException {
         adminPage.SavePhotosessionButton();
         sleep(40);
-////        adminPage.ShowPhotosession();
-////        adminPage.Publicate();
+//        adminPage.ShowPhotosession();
+        adminPage.Publicate();
+        showLogs();
         adminPage.Photosessions();
-        Assert.assertTrue(isElementPreset(By.xpath("//td[text()='Company']")));
+        Assert.assertTrue(isElementPreset(By.xpath("//td[text()='Navigator']")));
 
     }
 

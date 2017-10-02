@@ -2,105 +2,81 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b5cf1aa-cf73-4348-b927-dda3d82c180d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__asm_asm_3_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__cglib_cglib_2_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__cljsjs_logentries_0_0_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__com_github_detro_ghostdriver_phantomjsdriver_1_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__com_jhlabs_filters_2_0_235.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__com_logentries_logentries_appender_1_1_38.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__com_opera_operadriver_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__com_opera_operalaunchers_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__joda_time_joda_time_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__junit_junit_dep_4_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__mx4j_mx4j_tools_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__net_sf_flexjson_flexjson_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__net_sf_opencsv_opencsv_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__net_sourceforge_jexcelapi_jxl_2_6_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__net_thucydides_thucydides_core_0_9_228.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__net_thucydides_thucydides_junit_0_9_228.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__net_thucydides_thucydides_report_resources_0_9_228.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_asciidoctor_asciidoctor_java_integration_0_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_48.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_48.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_fluentlenium_fluentlenium_core_0_7_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_freemarker_freemarker_2_3_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_hamcrest_hamcrest_integration_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_ini4j_ini4j_0_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_jruby_jruby_complete_1_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_6_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_seleniumhq_selenium_jetty_repacked_7_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_server_2_37_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_7_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__commons_lang_commons_lang_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__io_qameta_allure_allure2_model_api_1_0_BETA6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__io_qameta_allure_allure2_model_jackson_1_0_BETA6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__io_qameta_allure_allure2_model_pojo_1_0_BETA6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__io_qameta_allure_allure_java_commons_2_0_BETA15.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__io_qameta_allure_allure_junit4_2_0_BETA15.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__io_qameta_allure_allure_junit4_aspect_2_0_BETA15.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_apache_tika_tika_core_1_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_jooq_joor_0_9_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_jvnet_jaxb2_commons_jaxb2_basics_runtime_0_9_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_java_adaptor_api_1_4_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_java_annotations_1_4_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_java_aspects_1_4_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_model_1_4_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_testng_adaptor_1_4_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__ru_yandex_qatools_htmlelements_htmlelements_java_1_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__ru_yandex_qatools_properties_properties_loader_1_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/src/main/java/Logs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/target/allure-results/13e25785-9ed0-4384-9c1d-f4584857c9de-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/target/allure-results/140d1dc4-9ad8-4ccb-9b95-81c8385d7933-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/target/allure-results/1c483c46-e296-4a3e-9a80-04c74c837410-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/target/allure-results/2023d17f-03e2-4334-b73e-e9291bd20c03-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/target/allure-results/2337c3aa-5800-4685-a9ea-deaae93606a7-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/target/allure-results/33942094-8cde-4f93-84f2-81a6d8f19f53-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/target/allure-results/36cd66a3-8bf8-4bce-9279-38cb3b409aa7-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/target/allure-results/38901c06-91f8-4036-bac5-3c795be6d560-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/target/allure-results/4263ab90-4e26-4f7a-a4d1-3c40b97cba12-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/target/allure-results/6308aebd-38e7-417d-b933-12de8710520b-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/target/allure-results/978934d0-f973-4712-8a2a-751d6185fca9-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/target/allure-results/a6d5d9f8-e741-4bc8-bac1-84754effd313-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/target/allure-results/b3517ac2-274f-48fb-922e-d87e7705ebc4-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/target/allure-results/bd80cfd3-1ce5-460d-8f4a-909dfa3451b8-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/target/allure-results/ca859e86-046f-4687-9743-f7ce8eaf68fe-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/target/allure-results/cf56aa0b-c66f-43d8-8e4b-41cd2617ba7e-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/target/allure-results/d743f964-504e-4939-9afe-adeb1f3abc00-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/target/allure-results/dcdfc2b0-3d3e-489e-be63-a2fa4c90a8a9-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/target/allure-results/e71302f7-7912-42f6-90f8-6d8d0d766e3e-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/target/allure-results/ed3a67b5-5694-4204-adba-8f6e084d71c9-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/target/allure-results/fac3bc5c-3d13-4a7b-91b0-9ec953e89012-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/target/classes/Logs.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_2_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_0.xml" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_2_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_0.xml" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_2_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__backport_util_concurrent_backport_util_concurrent_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__classworlds_classworlds_1_1_alpha_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__javax_websocket_javax_websocket_api_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__javax_websocket_javax_websocket_client_api_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_apache_maven_maven_aether_provider_3_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_apache_maven_maven_artifact_3_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_apache_maven_maven_artifact_manager_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_apache_maven_maven_core_3_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_apache_maven_maven_model_3_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_apache_maven_maven_model_builder_3_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_3_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_apache_maven_maven_plugin_descriptor_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_apache_maven_maven_plugin_registry_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_apache_maven_maven_profile_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_apache_maven_maven_project_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_apache_maven_maven_repository_metadata_3_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_apache_maven_maven_settings_3_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_apache_maven_maven_settings_builder_3_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_apache_maven_plugin_tools_maven_plugin_tools_api_3_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_apache_maven_wagon_wagon_provider_api_1_0_beta_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_apache_taglibs_taglibs_standard_impl_1_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_apache_taglibs_taglibs_standard_spec_1_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_codehaus_plexus_plexus_classworlds_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_codehaus_plexus_plexus_component_annotations_1_5_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_codehaus_plexus_plexus_container_default_1_0_alpha_9_stable_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_codehaus_plexus_plexus_interpolation_1_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_2_0_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_eclipse_jdt_core_compiler_ecj_4_4_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_eclipse_jetty_apache_jsp_9_4_7_v20170914.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_eclipse_jetty_apache_jstl_9_4_7_v20170914.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_eclipse_jetty_jetty_annotations_9_4_7_v20170914.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_eclipse_jetty_jetty_jaas_9_4_7_v20170914.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_eclipse_jetty_jetty_jmx_9_4_7_v20170914.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_eclipse_jetty_jetty_jndi_9_4_7_v20170914.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_eclipse_jetty_jetty_maven_plugin_9_4_7_v20170914.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_eclipse_jetty_jetty_plus_9_4_7_v20170914.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_eclipse_jetty_jetty_quickstart_9_4_7_v20170914.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_7_v20170914.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_7_v20170914.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_7_v20170914.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_7_v20170914.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_7_v20170914.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_eclipse_jetty_toolchain_jetty_schemas_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_eclipse_jetty_websocket_javax_websocket_client_impl_9_4_7_v20170914.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_eclipse_jetty_websocket_javax_websocket_server_impl_9_4_7_v20170914.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_4_7_v20170914.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_4_7_v20170914.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_mortbay_jasper_apache_el_8_5_9_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_mortbay_jasper_apache_jsp_8_5_9_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_ow2_asm_asm_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_ow2_asm_asm_commons_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_ow2_asm_asm_tree_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_sonatype_aether_aether_api_1_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_sonatype_aether_aether_impl_1_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_sonatype_aether_aether_spi_1_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_sonatype_aether_aether_util_1_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_sonatype_plexus_plexus_cipher_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_sonatype_plexus_plexus_sec_dispatcher_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_sonatype_sisu_sisu_guice_no_aop_2_9_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_bean_2_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_plexus_2_1_1.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/libraries/Maven__cljsjs_logentries_0_0_3_0.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ForsageAuto/target/classes/AdminPage.class" afterPath="$PROJECT_DIR$/../ForsageAuto/target/classes/AdminPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ForsageAuto/target/classes/HelperPage.class" afterPath="$PROJECT_DIR$/../ForsageAuto/target/classes/HelperPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ForsageAuto/target/classes/LoginPage.class" afterPath="$PROJECT_DIR$/../ForsageAuto/target/classes/LoginPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ForsageAuto/target/test-classes/AdminTest.class" afterPath="$PROJECT_DIR$/../ForsageAuto/target/test-classes/AdminTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ForsageAuto/target/test-classes/FirstTest.class" afterPath="$PROJECT_DIR$/../ForsageAuto/target/test-classes/FirstTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ForsageAuto/target/test-classes/PhotosessionTest.class" afterPath="$PROJECT_DIR$/../ForsageAuto/target/test-classes/PhotosessionTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ForsageAuto/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ForsageAuto/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ForsageAuto/ForsageAuto.iml" afterPath="$PROJECT_DIR$/../ForsageAuto/ForsageAuto.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ForsageAuto/pom.xml" afterPath="$PROJECT_DIR$/../ForsageAuto/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ForsageAuto/src/main/java/AdminPage.java" afterPath="$PROJECT_DIR$/../ForsageAuto/src/main/java/AdminPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ForsageAuto/src/test/java/AdminTest.java" afterPath="$PROJECT_DIR$/../ForsageAuto/src/test/java/AdminTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ForsageAuto/src/test/java/PhotosessionTest.java" afterPath="$PROJECT_DIR$/../ForsageAuto/src/test/java/PhotosessionTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../ForsageAuto/out/" />
     <ignored path="$PROJECT_DIR$/../ForsageAuto/target/" />
@@ -113,11 +89,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ForsageAuto/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1537">
-              <caret line="177" column="0" lean-forward="false" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+            <state relative-caret-position="1326">
+              <caret line="78" column="82" lean-forward="false" selection-start-line="78" selection-start-column="82" selection-end-line="78" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -126,26 +102,11 @@
       <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ForsageAuto/src/main/java/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="0">
+              <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#898#899#0" expanded="true" />
                 <element signature="e#937#938#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ForsageAuto/src/main/java/AdminPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="404" column="68" lean-forward="false" selection-start-line="404" selection-start-column="68" selection-end-line="404" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#AddBrand#0;class#AdminPage#0" expanded="false" />
-                <element signature="method#AddNewBrand#0;class#AdminPage#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -154,8 +115,8 @@
       <file leaf-file-name="FirstTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ForsageAuto/src/test/java/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="92" column="82" lean-forward="false" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="82" />
+            <state relative-caret-position="408">
+              <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,8 +137,8 @@
       <file leaf-file-name="AdminTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ForsageAuto/src/test/java/AdminTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4284">
-              <caret line="315" column="59" lean-forward="false" selection-start-line="315" selection-start-column="59" selection-end-line="315" selection-end-column="59" />
+            <state relative-caret-position="5559">
+              <caret line="345" column="0" lean-forward="false" selection-start-line="345" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -185,11 +146,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhotosessionTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PhotosessionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../ForsageAuto/src/test/java/PhotosessionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+            <state relative-caret-position="-1294">
+              <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -200,10 +161,24 @@
       <file leaf-file-name="HelperPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ForsageAuto/src/main/java/HelperPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="27" selection-start-column="3" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="199">
+              <caret line="28" column="65" lean-forward="false" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ForsageAuto/src/main/java/AdminPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="398" column="67" lean-forward="false" selection-start-line="398" selection-start-column="67" selection-end-line="398" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#AddBrand#0;class#AdminPage#0" expanded="false" />
+                <element signature="method#AddNewBrand#0;class#AdminPage#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -235,11 +210,11 @@
         <option value="$PROJECT_DIR$/../ForsageAuto/src/test/FirstTest.xml" />
         <option value="$PROJECT_DIR$/../ForsageAuto/src/test/java/FirstTest.java" />
         <option value="$PROJECT_DIR$/../ForsageAuto/src/main/java/Logs.java" />
-        <option value="$PROJECT_DIR$/../ForsageAuto/src/test/java/AdminTest.java" />
         <option value="$PROJECT_DIR$/../ForsageAuto/src/main/java/HelperPage.java" />
+        <option value="$PROJECT_DIR$/../ForsageAuto/pom.xml" />
         <option value="$PROJECT_DIR$/../ForsageAuto/src/main/java/AdminPage.java" />
         <option value="$PROJECT_DIR$/../ForsageAuto/src/test/java/PhotosessionTest.java" />
-        <option value="$PROJECT_DIR$/../ForsageAuto/pom.xml" />
+        <option value="$PROJECT_DIR$/../ForsageAuto/src/test/java/AdminTest.java" />
       </list>
     </option>
   </component>
@@ -272,8 +247,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -322,17 +298,11 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ForsageAuto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ForsageAuto" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="RecentsManager">
@@ -354,61 +324,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AdminTest.AdminLogin">
-    <configuration name="AdminTest.AdminDownloadPhotos" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="ForsageAuto" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AdminTest" />
-      <option name="METHOD_NAME" value="AdminDownloadPhotos" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="AdminTest.AdminEditProduct" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="ForsageAuto" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AdminTest" />
-      <option name="METHOD_NAME" value="AdminEditProduct" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
+  <component name="RunManager" selected="TestNG.PhotosessionTest.CreatePhotosession">
     <configuration name="AdminTest.AdminLogin" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="ForsageAuto" />
@@ -420,6 +336,33 @@
       <option name="METHOD_NAME" value="AdminLogin" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="PhotosessionTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="ForsageAuto" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PhotosessionTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -472,6 +415,33 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PhotosessionTest" />
       <option name="METHOD_NAME" value="AddNewPhotosession1" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="PhotosessionTest.CreatePhotosession" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="ForsageAuto" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PhotosessionTest" />
+      <option name="METHOD_NAME" value="CreatePhotosession" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -572,19 +542,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.AdminTest.AdminDownloadPhotos" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.AdminTest.AdminEditProduct" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.PhotosessionTest.AddNewPhotosession1" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.PhotosessionTest.AddNewPhotosession" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.AdminTest.AdminLogin" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.PhotosessionTest.AddNewPhotosession1" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.PhotosessionTest.AddNewPhotosession" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.AdminTest.AdminLogin" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.PhotosessionTest.CreatePhotosession" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.PhotosessionTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.AdminTest.AdminLogin" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.PhotosessionTest.AddNewPhotosession" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.PhotosessionTest.AddNewPhotosession1" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.AdminTest.AdminEditProduct" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.AdminTest.AdminDownloadPhotos" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.PhotosessionTest.CreatePhotosession" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.PhotosessionTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.PhotosessionTest.AddNewPhotosession" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.AdminTest.AdminLogin" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.PhotosessionTest.AddNewPhotosession1" />
       </list>
     </recent_temporary>
   </component>
@@ -605,6 +575,9 @@
     <history-entry file="AdminTest_AdminLogin - 2017.09.29 at 15h 05m 46s.xml">
       <configuration name="AdminTest.AdminLogin" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="PhotosessionTest - 2017.09.29 at 17h 51m 41s.xml">
+      <configuration name="PhotosessionTest" configurationId="TestNG" />
+    </history-entry>
     <history-entry file="PhotosessionTest_AddNewPhotosession - 2017.09.29 at 14h 23m 25s.xml">
       <configuration name="PhotosessionTest.AddNewPhotosession" configurationId="TestNG" />
     </history-entry>
@@ -617,20 +590,17 @@
     <history-entry file="PhotosessionTest_AddNewPhotosession - 2017.09.29 at 14h 33m 43s.xml">
       <configuration name="PhotosessionTest.AddNewPhotosession" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PhotosessionTest_AddNewPhotosession1 - 2017.09.29 at 14h 15m 16s.xml">
-      <configuration name="PhotosessionTest.AddNewPhotosession1" configurationId="TestNG" />
+    <history-entry file="PhotosessionTest_AddNewPhotosession - 2017.09.29 at 16h 16m 18s.xml">
+      <configuration name="PhotosessionTest.AddNewPhotosession" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PhotosessionTest_AddNewPhotosession1 - 2017.09.29 at 14h 17m 43s.xml">
-      <configuration name="PhotosessionTest.AddNewPhotosession1" configurationId="TestNG" />
+    <history-entry file="PhotosessionTest_CreatePhotosession - 2017.09.29 at 17h 43m 11s.xml">
+      <configuration name="PhotosessionTest.CreatePhotosession" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PhotosessionTest_AddNewPhotosession1 - 2017.09.29 at 14h 18m 32s.xml">
-      <configuration name="PhotosessionTest.AddNewPhotosession1" configurationId="TestNG" />
+    <history-entry file="PhotosessionTest_CreatePhotosession - 2017.09.29 at 17h 47m 09s.xml">
+      <configuration name="PhotosessionTest.CreatePhotosession" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PhotosessionTest_AddNewPhotosession1 - 2017.09.29 at 14h 19m 59s.xml">
-      <configuration name="PhotosessionTest.AddNewPhotosession1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PhotosessionTest_AddNewPhotosession1 - 2017.09.29 at 14h 20m 54s.xml">
-      <configuration name="PhotosessionTest.AddNewPhotosession1" configurationId="TestNG" />
+    <history-entry file="PhotosessionTest_CreatePhotosession - 2017.09.29 at 22h 05m 29s.xml">
+      <configuration name="PhotosessionTest.CreatePhotosession" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -639,28 +609,28 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4662162" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4662162" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.249375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -675,39 +645,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../ForsageAuto/src/test/FirstTest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="48" lean-forward="false" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ForsageAuto/src/test/java/AdminTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4743">
-          <caret line="279" column="19" lean-forward="true" selection-start-line="278" selection-start-column="9" selection-end-line="279" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ForsageAuto/src/main/java/Logs.java" />
-    <entry file="file://$PROJECT_DIR$/../ForsageAuto/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" column="19" lean-forward="false" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ForsageAuto/src/main/java/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
             <element signature="e#937#938#0" expanded="true" />
           </folding>
@@ -767,7 +709,6 @@
         <state relative-caret-position="442">
           <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
             <element signature="e#937#938#0" expanded="true" />
           </folding>
@@ -827,7 +768,6 @@
         <state relative-caret-position="374">
           <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
             <element signature="e#937#938#0" expanded="true" />
           </folding>
@@ -887,7 +827,6 @@
         <state relative-caret-position="442">
           <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
             <element signature="e#937#938#0" expanded="true" />
           </folding>
@@ -947,7 +886,6 @@
         <state relative-caret-position="374">
           <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
             <element signature="e#937#938#0" expanded="true" />
           </folding>
@@ -1007,7 +945,6 @@
         <state relative-caret-position="459">
           <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
             <element signature="e#937#938#0" expanded="true" />
           </folding>
@@ -1081,9 +1018,42 @@
         <state relative-caret-position="442">
           <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
             <element signature="e#937#938#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ForsageAuto/src/main/java/Logs.java" />
+    <entry file="file://$PROJECT_DIR$/../ForsageAuto/target/target/allure-reports/index.html" />
+    <entry file="file://$PROJECT_DIR$/../ForsageAuto/target/target/allure-reports/img/allure-logo.png" />
+    <entry file="file://$PROJECT_DIR$/../ForsageAuto/target/site/images/expanded.gif" />
+    <entry file="file://$PROJECT_DIR$/../ForsageAuto/target/site/images/logos/build-by-maven-black.png" />
+    <entry file="file://$PROJECT_DIR$/../ForsageAuto/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" column="82" lean-forward="false" selection-start-line="78" selection-start-column="82" selection-end-line="78" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ForsageAuto/src/main/java/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+          <folding>
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ForsageAuto/src/test/java/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1096,33 +1066,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ForsageAuto/src/main/java/Logs.java" />
-    <entry file="file://$PROJECT_DIR$/../ForsageAuto/src/test/java/FirstTest.java">
+    <entry file="file://$PROJECT_DIR$/../ForsageAuto/src/test/java/AdminTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="92" column="82" lean-forward="false" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="82" />
+        <state relative-caret-position="5559">
+          <caret line="345" column="0" lean-forward="false" selection-start-line="345" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ForsageAuto/src/main/java/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ForsageAuto/src/main/java/AdminPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="404" column="68" lean-forward="false" selection-start-line="404" selection-start-column="68" selection-end-line="404" selection-end-column="68" />
+        <state relative-caret-position="330">
+          <caret line="398" column="67" lean-forward="false" selection-start-line="398" selection-start-column="67" selection-end-line="398" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#AddBrand#0;class#AdminPage#0" expanded="false" />
@@ -1131,41 +1088,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ForsageAuto/src/test/java/PhotosessionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ForsageAuto/src/main/java/HelperPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="27" selection-start-column="3" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="199">
+          <caret line="28" column="65" lean-forward="false" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ForsageAuto/src/test/java/AdminTest.java">
+    <entry file="file://$PROJECT_DIR$/../ForsageAuto/src/test/java/PhotosessionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4284">
-          <caret line="315" column="59" lean-forward="false" selection-start-line="315" selection-start-column="59" selection-end-line="315" selection-end-column="59" />
+        <state relative-caret-position="-1294">
+          <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ForsageAuto/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1537">
-          <caret line="177" column="0" lean-forward="false" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
