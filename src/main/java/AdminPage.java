@@ -396,7 +396,7 @@ public class AdminPage {
     public WebElement AddPhotosession;
     @FindBy(xpath = "//*[@id=\"supplierSelect\"]/div/button/span[1]")
     public WebElement SellerField;
-    @FindBy(xpath = "//*[@id=\"supplierSelect\"]/div/div/ul/li[5]/a")
+    @FindBy(xpath = "//*[@id=\"supplierSelect\"]/div/div/ul/li[12]/a")
     public WebElement ChooseSeller;
     @FindBy(id = "created")
     public WebElement InputDate;
@@ -552,7 +552,7 @@ public class AdminPage {
     public WebElement SelectCategory;
     @FindBy(xpath = "//*[@id=\"filterProductForm\"]/div[1]/div[4]/div/div/button")
     public WebElement SellerList;
-    @FindBy(xpath = "//*[@id=\"filterProductForm\"]/div[1]/div[4]/div/div/div/ul/li[1]/a")
+    @FindBy(xpath = "//*[@id=\"filterProductForm\"]/div[1]/div[4]/div/div/div/ul/li[10]/a")
     public WebElement SelectSeller;
     @FindBy(xpath = "//*[@id=\"filterProductForm\"]/div[2]/div/input")
     public WebElement AddFiltersButton;
@@ -607,6 +607,10 @@ public class AdminPage {
     public WebElement DownloadDescription;
     @FindBy(id = "downloadAllProductImages")
     public WebElement DownloadPhotos;
+    @FindBy(id = "export_full_excel_products")
+    public WebElement DownloadFullExport;
+    @FindBy(id = "import_full_excel_products")
+    public WebElement ImportExcelEdit;
 
     public void SelectProduct() {
         SelectProduct.click();
